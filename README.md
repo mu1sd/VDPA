@@ -30,7 +30,7 @@ x = torch.randn(1, 3, 512, 512)
 logits = model(x)
 print(logits.shape)  # [1, 2]
 
-##🧪 统一效率基准
+## 🧪 统一效率基准
 # 测你自己的 VDPA + timm/VMamba 基线，并导出 CSV
 python benchmarks/measure_models.py \
   --models vdpa,convnextv2_tiny,maxvit,vmamba_tiny \
@@ -40,15 +40,15 @@ python benchmarks/measure_models.py \
 python benchmarks/bench_models_base.py \
   --models resnet50,vit,swin-transformer,vdpa \
   --img 512 --bs 1 --fp16
-##🔧 依赖
+## 🔧 依赖
 Python ≥ 3.8，PyTorch ≥ 1.10
 可选：timm（基线模型）、ptflops/thop/fvcore（FLOPs）、numpy
 
-##📄 许可
+## 📄 许可
 本项目采用 MIT 许可证（见 LICENSE）。
 
-##🔗 引用
+## 🔗 引用
 如果本项目对你的研究有帮助，请引用（见 CITATION.cff）。
 
-##🙏 致谢
+## 🙏 致谢
 timm, fvcore, ptflops, thop 等开源项目。
