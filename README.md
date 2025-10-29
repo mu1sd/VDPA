@@ -37,6 +37,9 @@ This repo provides a minimal VDPA implementation plus unified efficiency/params/
 ```bash
 pip install -r requirements.txt
 
+
+---
+
 ## 🚀 快速开始
 import torch
 from vdpapkg.models.vdpa import VDPA
