@@ -21,6 +21,7 @@ pip install -r requirements.txt
 
 # 方式B：Conda（可选）
 conda env create -f environment.yml && conda activate vdpa
+
 ## 🚀 快速开始
 import torch
 from vdpapkg.models.vdpa import VDPA
