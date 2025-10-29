@@ -29,7 +29,6 @@ This repo provides a minimal VDPA implementation plus unified efficiency/params/
 - **动态类标构造**：ALP 基于邻域余弦权重聚合，生成不引入额外 [CLS] 的 class token。
 - **整洁实现**：纯 PyTorch、依赖最小；配套 `timm` 与 VMamba 等基线的统一基准脚本。
 
----
 
 ## 📦 安装
 
@@ -38,7 +37,6 @@ This repo provides a minimal VDPA implementation plus unified efficiency/params/
 pip install -r requirements.txt
 
 
----
 
 ## 🚀 快速开始
 import torch
